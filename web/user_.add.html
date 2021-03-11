@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册</title>
+    <link rel="stylesheet" type="text/css" href="user.css">
+</head>
+<body >
+
+        <img id="img1" src="img/中图片.jpg"/>
+        <div id="div2">
+            <font size="3px" color="yellow">汤工为您服务,详情请咨询12306</font>
+        </div>
+        <div id="div3">
+            <font >虎门科技有限公司，咨询热线12345678</font><br>
+            <font >版权所有 ©南京邮电大学科研楼705</font>
+        </div>
+
+      <div id="div1">
+          <h2>&nbsp;欢迎注册</h2>
+              <span style="font-size: small">&nbsp;&nbsp;已有账号?</span>
+              <span id="span1"><a href="/myweb/login.html">登录</a></span>
+          <br>
+          <br>
+          <form align="center" action="/myweb/user/add" method="get">
+              <table>
+<!--                  tr是行；td是列；colspan合并单元格；th比td多的是加粗，剧中；-->
+                  <tr>
+                      <th width="100px">用户名</th>
+                      <td><input type="text" name="userName" class="put1"/></td>
+                  </tr>
+                  <tr><td><br></td></tr>
+                  <tr>
+                      <th width="100px">用户密码</th>
+                      <td><input type="passWord" name="passWord" class="put1"/></td>
+                  </tr>
+                  <tr><td><br></td></tr>
+                  <tr>
+                      <th width="100px">性别</th>
+                      <td align="left">
+                          <input type="radio" name="sex" value="男" />男
+                          <input type="radio" name="sex" value="女" />女
+                      </td>
+                  </tr>
+                  <tr><td><br></td></tr>
+                  <tr>
+                      <th width="100px">用户邮箱</th>
+                      <td>
+                          <input type="text" name="email" class="put1"/>
+                      </td>
+                  </tr>
+              </table>
+              <br>
+                      <input style="color:red" type="submit" value="用户注册"/>&nbsp;&nbsp;&nbsp;&nbsp;
+                      <input type="reset"/>
+              <br><br>
+              <input type="checkbox" name="agree" value="yes" />
+              <font size="2px" color="">阅读并接受</font>
+              <span style="color: blue;font-size:2px">
+                  《百度用户协议》
+              </span>
+              <font size="2px" color="">及</font>
+              <span style="color: blue;font-size:2px">
+                  《百度隐私权保护声明》
+              </span>
+          </form>
+      </div>
+</body>
+</html>

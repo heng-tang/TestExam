@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="login.css">
+</head>
+<body>
+    <center>
+        <font style="color: red;font-size: 30px">用户信息不存在，请重新登录</font>
+    </center>
+    //以下登录信息
+        <img id="img1" src="img/中图片.jpg"/>
+        <div id="div2">
+            <font size="3px" color="yellow">汤工为您服务,详情请咨询12306</font>
+        </div>
+        <div id="div3">
+            <font >虎门科技有限公司，咨询热线12345678</font><br>
+            <font >版权所有 ©南京邮电大学科研楼705</font>
+        </div>
+
+        <div id="div4">
+            <form  align="center" action="/myweb/login" method="post">
+                <h2 style="color: blue" align="left">欢迎登录</h2>
+                <table  style="border-spacing: 5px">
+                    <tr>
+                        <td><font>用户名</font></td>
+                        <td><input type="text" name="userName" class="put1"/></td>
+                    </tr>
+                    <tr><td><br></td></tr>
+                    <tr>
+                        <td><font>用户密码</font></td>&nbsp;&nbsp;&nbsp;
+                        <td><input type="passWord" name="passWord" class="put1"/></td>
+                    </tr>
+                    <tr><td><br></td></tr>
+                </table>
+                <input style="font-weight:900;font-size: 15px" type="submit" value="登录" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input style="font-weight:900;font-size: 15px" type="reset" value="重置" />
+                <br><br>
+                <input type="checkbox" name="agree" value="yes" />
+                <font size="2px" color="">阅读并接受</font>
+                <span style="color: blue;font-size:2px">
+                  《百度用户协议》
+              </span>
+                <font size="2px" color="">及</font>
+                <span style="color: blue;font-size:2px">
+                  《百度隐私权保护声明》
+              </span>
+            </form>
+        </div>
+</body>
+</html>
